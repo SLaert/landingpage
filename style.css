@@ -1,0 +1,48 @@
+body {
+	text-align: center;
+	font-family: verdana;
+	background-image: url(images/Ericeira.jpg);
+	background-size: cover;
+	color: grey;
+}
+
+h1{
+	color: white;
+	font-size: 70px;
+	padding-top: 300px;
+	text-shadow: 2px 2px 3px grey;
+}
+
+p {
+	font-size: 25px;
+	padding-top: 5px;
+}
+
+.buton {
+	text-decoration: none;
+	background-color: red;
+	color: white;
+	font-size: 20;
+	padding: 10px 15px 10px 15px;
+	border-radius: 4px;
+}
+
+.buton:hover{
+	background-color: rgba(204,0,0,0.7);
+}
+
+.list {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 150px;
+
+}
+
+.list li {
+	display: inline;
+}
+
+.list a {
+		color: white;
+		font-size: 25px;
+	}
